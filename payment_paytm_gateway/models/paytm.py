@@ -8,7 +8,7 @@ integration """
 import logging
 
 from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.addons.payment_paytm.models.checksum import \
+from odoo.addons.payment_paytm_gateway.models.checksum import \
     generate_checksum, verify_checksum
 from odoo import api, fields, models, _
 

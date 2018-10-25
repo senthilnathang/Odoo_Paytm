@@ -22,7 +22,7 @@
                 <input type='hidden' name='PINCODE' t-att-value="PINCODE" />
                 
 				<button type="submit" width="100px" t-att-class="submit_class">
-					<img t-if="not submit_txt" src="payment_paytm/static/description/icon.png" />
+					<img t-if="not submit_txt" src="payment_paytm_gateway/static/description/icon.png" />
 					<span t-if="submit_txt">
 						<t t-esc="submit_txt" />
 						<span class="fa fa-long-arrow-right" />

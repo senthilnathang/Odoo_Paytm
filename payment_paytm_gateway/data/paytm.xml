@@ -4,7 +4,7 @@
 
         <record id="payment.payment_acquirer_paytm" model="payment.acquirer">
             <field name="name">Paytm</field>
-            <field name="image" type="base64" file="payment_paytm/static/description/icon.png"/>
+            <field name="image" type="base64" file="payment_paytm_gateway/static/description/icon.png"/>
             <field name="provider">paytm_payment</field>
             <field name="company_id" ref="base.main_company"/>
             <field name="view_template_id" ref="paytm_payment_acquirer_button"/>
