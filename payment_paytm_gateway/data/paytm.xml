@@ -2,7 +2,7 @@
 <openerp>
     <data noupdate="1">
 
-        <record id="payment.payment_acquirer_paytm" model="payment.acquirer">
+        <record id="payment_acquirer_paytm" model="payment.acquirer">
             <field name="name">Paytm</field>
             <field name="image" type="base64" file="payment_paytm_gateway/static/description/icon.png"/>
             <field name="provider">paytm_payment</field>
